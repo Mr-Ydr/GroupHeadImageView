@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HeadImageView">
+        <attr name="leftTopUrl" format="string" />
+        <attr name="leftButtonUrl" format="string" />
+        <attr name="rightTopUrl" format="string" />
+        <attr name="rightButtonUrl" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="GroupHeadImageView">
+        <attr name="BackgroundColor" format="color" />
+        <attr name="line" format="integer" />
+        <attr name="type" format="enum">
+            <enum name="round" value="0" />
+            <enum name="rectangle" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

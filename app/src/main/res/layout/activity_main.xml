@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.drying.HeadImageView.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!--  <com.drying.HeadImageView.HeadImageView
+                  android:layout_width="301dp"
+                  android:layout_height="301dp"
+                  app:leftButtonUrl="http://www.qqzhi.com/uploadpic/2015-01-13/055829545.jpg"
+                  app:leftTopUrl="http://pic.58pic.com/58pic/10/99/68/96858PICYVq.jpg"
+                  app:rightButtonUrl="http://pic.58pic.com/58pic/10/99/68/96858PICYVq.jpg"
+                  app:rightTopUrl="http://clubfiles.libaclub.com/2013/02/15/15/36453999.jpg" />
+  -->
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head1"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp" />
+
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp" />
+
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp" />
+
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp" />
+
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head5"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp" />
+
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head6"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp" />
+
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head7"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp" />
+
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head8"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp" />
+
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head9"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp" />
+
+            <com.drying.HeadImageView.GroupHeadImageView
+                android:id="@+id/head10"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                app:BackgroundColor="@color/colorPrimary"
+                app:line="3"
+                app:type="rectangle" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
